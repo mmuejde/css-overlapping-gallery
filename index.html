@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            background-color: #333;
+        }
+        .gallery{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        }
+        .gallery img{
+            height: 100%;
+            width: 100%;
+            flex-shrink: 0;
+            object-fit: cover;
+            position: sticky;
+            top: 0;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="gallery">
+        <img src="https://picsum.photos/id/237/2000/800" alt="https://picsum.photos">
+        <img src="https://picsum.photos/id/137/2000/800" alt="https://picsum.photos">
+        <img src="https://picsum.photos/id/337/2000/800" alt="https://picsum.photos">
+        <img src="https://picsum.photos/id/547/2000/800" alt="https://picsum.photos">
+        <img src="https://picsum.photos/id/327/2000/800" alt="https://picsum.photos">
+        <img src="https://picsum.photos/id/677/2000/800" alt="https://picsum.photos">
+    </div>
 </body>
 </html>

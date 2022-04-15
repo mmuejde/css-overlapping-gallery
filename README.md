@@ -1,3 +1,3 @@
-# repo-template
+# css-overlapping-gallery
 
 ![](preview.gif)
